@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px" height="60px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask fill="white" id="clip419">
+      <path d="M 267.575927734375 541  L 292.424072265625 541  L 292.424072265625 560  L 267.575927734375 560  Z M 259 530  L 299 530  L 299 570  L 259 570  Z " fill-rule="evenodd" />
+    </mask>
+    <filter x="250px" y="521px" width="60px" height="60px" filterUnits="userSpaceOnUse" id="filter420">
+      <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget421">
+      <path d="M 259.5 530.5  L 298.5 530.5  L 298.5 569.5  L 259.5 569.5  L 259.5 530.5  Z " fill-rule="nonzero" fill="#f2f2f2" stroke="none" />
+      <path d="M 259.5 530.5  L 298.5 530.5  L 298.5 569.5  L 259.5 569.5  L 259.5 530.5  Z " stroke-width="1" stroke="#797979" fill="none" />
+      <path d="M 259.353553390593 530.353553390593  L 298.646446609407 569.646446609407  M 298.646446609407 530.353553390593  L 259.353553390593 569.646446609407  " stroke-width="1" stroke="#797979" fill="none" mask="url(#clip419)" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -250 -521 )">
+    <use xlink:href="#widget421" filter="url(#filter420)" />
+    <use xlink:href="#widget421" />
+  </g>
+</svg>
